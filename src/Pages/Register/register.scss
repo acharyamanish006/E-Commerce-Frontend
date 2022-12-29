@@ -1,0 +1,93 @@
+.register-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background: url(./assets/background.svg) no-repeat;
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    background-size: cover;
+    .wrapper{
+        // border: 1px solid red;
+        margin: 20px;
+        // background-color: red;
+        width: fit-content;
+        // min-height: 500px;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.516);
+
+        padding: 30px 30px;
+            box-shadow:
+            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+            0 12.5px 10px rgba(0, 0, 0, 0.06),
+            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+            0 100px 80px rgba(0, 0, 0, 0.12)
+          ;
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 30px;
+            color: #000;
+        }
+        input{
+            display: block;
+            height: 38px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            width: 400px;
+            margin: 10px auto;
+            padding: 10px;
+            border: none;
+            outline: none;
+        }
+        .login-btn{
+            cursor: pointer;
+            background-color: rgb(8, 6, 109);
+            color: #fff;
+            font-size: 1rem;
+            letter-spacing: 2px;
+            transition: all ease 0.4s;
+            &:hover{
+                background-color:rgb(31, 34, 50) ;
+            }
+        }
+        .other-options{
+            min-height: 30px;
+            width: fit-content;
+            margin: 10px auto;
+            margin-top: 10px;
+            color: #000;
+            text-align: center;
+            p{
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            img{
+                background-color: rgb(247, 247, 247);
+                border-radius: 10px;
+                margin-right: 10px;
+                margin-left: 10px;
+                height: 60px;
+                width: 60px;
+                cursor: pointer;
+                padding: 2px;
+                &:hover{
+                    background-color: rgb(234, 234, 234);
+                }
+            }
+        }
+        .login-options{
+            text-align: center;
+            color: #000;
+            a{
+                text-decoration: none;
+                color: rgb(8, 6, 109);;
+            }
+        }
+    }
+}
+
+
+

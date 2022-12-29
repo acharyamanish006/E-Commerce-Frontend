@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: rgb(255, 248, 248);
+    box-shadow: 2px 2px 2px 3px  rgb(223, 223, 223);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1900px;
+    width: 100%;
+    .logo{
+        a{
+            font-size: 1.6rem;
+            cursor: pointer;
+            color: #000;
+        }
+    }
+    .serach-bar{
+        max-width: 400px;
+        width: 100%;
+        input{
+            border-radius: 8px;
+            height: 40px;
+            padding: 10px;
+            font-size: 0.8rem;
+            width: 100%;
+        }
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        a{
+            display: inline;
+            text-decoration: none;
+            color: #000;
+        }
+    }
+}
+
+
+@media (max-width:1000px) {
+    .navbar ul{
+        display: none;
+    }
+    
+}
