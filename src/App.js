@@ -20,7 +20,7 @@ function App() {
       title: "Jacket",
       description:
         "Machine wash Independently with mildwith domestic and imported materialsDo not bleach Do not dry cleanPlease refer to the size chart in the picture before placing an order to ensure that the waist are suitable. Since your order will not display your size information, please size carefully before placing your order! If you need help, please contact our customer service.",
-      price: 1690,
+      price: 1790,
       image:
         "https://static-01.daraz.com.np/p/fba0c6ae25685b28e758e68c8282f98e.jpg",
       rating: 4.5,
@@ -31,10 +31,10 @@ function App() {
       title: "Yellow Bag",
       description:
         "Machine wash Independently with mildwith domestic and imported materialsDo not bleach Do not dry cleanPlease refer to the size chart in the picture before placing an order to ensure that the waist are suitable. Since your order will not display your size information, please size carefully before placing your order! If you need help, please contact our customer service.",
-      price: 2000,
+      price: 2100,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7ZkZIP4lJSm7EzOcvOaIB0v3YjTn1ixzS7aheIRc&s",
-      rating: 4,
+      rating: 2.5,
     },
     {
       id: 3,
@@ -42,10 +42,10 @@ function App() {
       title: "Camera",
       description:
         "Machine wash Independently with mildwith domestic and imported materialsDo not bleach Do not dry cleanPlease refer to the size chart in the picture before placing an order to ensure that the waist are suitable. Since your order will not display your size information, please size carefully before placing your order! If you need help, please contact our customer service.",
-      price: 20000,
+      price: 22000,
       image:
         "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=600",
-      rating: 2,
+      rating: 3,
     },
   ]);
   return (
@@ -70,6 +70,10 @@ function App() {
               }
             />
           </Route>
+          {/* <Route
+            path="/login"
+            element={isAuthenticated ? <Navigate to={"/"} /> : <Login />}
+          /> */}
           <Route
             path="/login"
             element={isAuthenticated ? <Navigate to={"/"} /> : <Login />}
